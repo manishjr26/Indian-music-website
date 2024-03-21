@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .video-container {
+  position: relative;
+  overflow: hidden;
+}
+#logo
+{
+    background: url(./logo.html);
+}
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.content {
+  padding: 20px;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+
+
+
+
+      </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary alert alert-success">
+        <div class="container-fluid" style="position: sticky; top: 0; z-index: 1000;">
+          <a class="navbar-brand" href="#">Namma</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="home_nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#intro">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#music">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#artist">Artist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#genres">Genres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#regrister">
+                    Contact Us
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Instruments                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#instrument">Violin</a></li>
+                  <li><a class="dropdown-item" href="#instrument">Guitar</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/manish-j-r-2606/ " target="_blank">contact</a></li>
+                  <li><a class="dropdown-item" href="#regrister">Connect</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row" id="background">
+          <div class="col-md-6" id="logo">
+            <iframe src="https://assets.pinterest.com/ext/embed.html?id=1135681231015957393" height="900" width="450" frameborder="0" scrolling="no"  id="videoFrame" class="bs-dark-bg-subtle" ></iframe>
+          </div>
+           <div class="col-md-6  opacity-75" style="background: url(./download.jpeg);  background-size: cover;
+           background-position: center;
+           position: relative;"
+           id="logo">
+            <div class="content opacity-100" id="home">
+              <!-- Your content here -->
+              <h2>Welcome to Our Music Platform</h2>
+              <p>Explore the latest music releases, discover new artists, and enjoy curated playlists.</p>
+              <div class="section">
+                
+                <p>Welcome to our music platform, where music lovers like you can immerse themselves in a world of endless melodies, rhythms, and emotions.</p>
+                <p>Discover the latest hits from your favorite artists or dive into the depths of underground music scenes. Whatever your taste, our platform caters to every musical inclination, ensuring a personalized experience for each user.</p>
+                <p>With a vast library of songs spanning across genres, regions, and eras, you'll never run out of new music to explore. Whether you're a casual listener or a devoted aficionado, our platform offers something for everyone.</p>
+                <p>But we're more than just a music streaming service. We're a community of passionate music enthusiasts united by our love for great music. Join us on this musical journey, where every note tells a story and every beat resonates with passion.</p>
+                <p>So, what are you waiting for? Dive in, discover, and experience the magic of music like never before on our music platform.</p>
+              </div>
+              <a href=".registration-form" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      
+      <!---                          Registration form                          -->
+      <br><br>
+                                                        <!-- Introduction-->
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="intro">
+                <p><div>
+                    <center class=""><span class="spinner-grow" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </span><h1><i>Introduction to Indian Music</i></h1></center> 
+                </div>
+                    <br><br>
+                    The history of music in India is rich and diverse, spanning thousands of years and encompassing various cultural  traditions and influences.  
+                    Here's an overview of how music started in India:   <br>
+                    <b>Ancient Period: </b>The origins of Indian music can be traced back to the ancient Vedic period, which dates back over 3,000 years. The Vedas, 
+                    the oldest scriptures of Hinduism, contain references to music and musical instruments. Music played an integral role in religious rituals, 
+                    with hymns (saman) sung during sacrifices and ceremonies. <br>
+
+                    <b>Classical Period:</b> The classical music tradition in India began to develop around 2,000 years ago with the emergence of the Natya Shastra, 
+                    a Sanskrit text on performing arts attributed to Bharata Muni. This text laid down the foundational principles of music, dance, and drama 
+                    and classified musical instruments into four. <br>
+
+                    <b>Medieval Period:</b> During the medieval period (approximately 500-1500 CE), Indian music flourished under the patronage of various kingdoms 
+                    and empires, including the Gupta, Chola, and Mughal dynasties. This period saw the development of regional musical styles and the 
+                    integration of Persian and Central Asian influences into Indian music. <br>
+
+                    <b>Bhakti and Sufi Movements:</b> The Bhakti and Sufi movements, which emerged around the 12th century, had a profound impact on Indian music.
+                     Bhakti poets like Kabir, Mirabai, and Tulsidas composed devotional songs (bhajans) in regional languages, while Sufi mystics used 
+                     music as a means of spiritual expression. This led to the development of devotional music traditions in India. <br>
+
+                    <b>North-South Divide:</b> By the medieval period, two distinct classical music traditions had emerged in India: Hindustani classical music 
+                    in North India and Carnatic classical music in South India. While both traditions share common roots, they have distinct styles, 
+                    repertoires, and performance practices. <br>
+
+                    <b>Colonial Era:</b> The colonial period (approximately 17th to 20th centuries) brought significant changes to Indian music. European 
+                    influences, particularly from Britain, impacted Indian music through the introduction of Western musical instruments, notation 
+                    systems, and compositional techniques. Indian musicians also began to interact with Western musicians, leading to the fusion 
+                    of Indian and Western music. <br>
+
+                    <b>Modern Era:</b> In the 20th century, Indian music underwent further transformations with the advent of recording technology, 
+                    radio, and eventually, film. Bollywood film music emerged as a dominant force, blending traditional Indian melodies with
+                     Western orchestration and modern rhythms. Indian classical music also experienced a revival, with legendary musicians 
+                     like Ravi Shankar and Ali Akbar Khan gaining international acclaim. <br>
+
+                    <b>Contemporary Scene:</b> In the 21st century, Indian music continues to evolve, with artists experimenting with fusion genres,
+                     electronic music, and global collaborations. The advent of the internet and digital platforms has made Indian music more 
+                     accessible to audiences worldwide, leading to a greater appreciation and awareness of its rich cultural heritage. <br>
+
+                Throughout its history, Indian music has served as a vehicle for spiritual expression, social cohesion, and cultural identity,
+                 embodying the diverse traditions and values of the Indian subcontinent.      <br>
+                </p>
+                <p>One of the distinguishing features of Indian music is its emphasis on improvisation within a structured framework. In classical 
+                    music, performers explore intricate melodies (ragas) and rhythmic patterns (talas) through improvisational techniques, creating 
+                    a unique musical experience in every performance.  <br>
+                    There are two main classical music traditions in India: Hindustani classical music, primarily practiced in the northern regions, and Carnatic classical music, predominant in the southern regions. While both traditions share common elements, they also have distinct styles, repertoire, and performance practices. <br>
+                    In addition to classical music, India boasts a rich tapestry of folk music traditions that vary from region to region. These folk songs and dances often reflect the daily lives, cultural rituals, and traditions of different communities across the country. <br>
+                    <br>
+                         In recent decades, Indian music has also found global recognition and influence, particularly through the Bollywood film industry. Bollywood music, characterized by its catchy melodies, energetic rhythms, and fusion of traditional and contemporary elements, has garnered fans worldwide and become synonymous with Indian popular culture. <br>
+                    As India continues to embrace modernity while preserving its cultural heritage, the landscape of Indian music continues to evolve. From classical maestros to indie musicians experimenting with fusion genres, Indian music remains a dynamic and ever-evolving art form that captivates audiences both at home and abroad. <br>
+                    </p>
+            </div>
+        </div>
+        <figure class="text-center border border-success">
+            <blockquote class="blockquote">
+              <p>Indian classical music is one of the oldest musical traditions in the world. It has a rich history and a deep spiritual essence that touches the soul of the listener."</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                - Ravi Shankar <cite title="Source Title"></cite>
+            </figcaption>
+          </figure>
+      </div>
+      <div class="container border border-info">
+        <div class="row">
+            <div class="col-md-6">
+                <figure>
+                    <blockquote class="blockquote">
+                      <p>In Indian classical music, every note has a meaning, every rhythm has a purpose. It is a journey of self-discovery and spiritual awakening." </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        - Anoushka Shankar <cite title="Source Title"></cite>
+                    </figcaption>
+                  </figure>
+            </div>
+            <div class="col-md-6">
+                <figure>
+                    <blockquote class="blockquote">
+                      <p>Indian music is like a vast ocean, with endless possibilities and depths waiting to be explored. It is a lifelong journey of learning and discovery." </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        - L. Subramaniam <cite title="Source Title"></cite>
+                    </figcaption>
+                  </figure>
+            </div>
+        </div>  <br><br>
+      </div>
+      <br><br>
+ <hr> <br><br>
+                                                            <!--- Genres  -->
+        
+      <div class="container">
+        <center><h1 id="genres" class="bg-primary"><u><em>Genres of Indian Music</em></u></h1></center>
+        <br><br>
+        <div class="col-lg-12">
+                            <b> 1.) Ancient Origins: </b> Music has been an integral part of Indian civilization since ancient times. The roots of Indian music can be traced 
+                            back to the Vedas, ancient sacred texts of Hinduism, which contain hymns and chants that were sung during religious rituals. <br>
+                           
+                            <b> 2.) Classical Music:</b> One of the oldest forms of Indian music is classical music, which has two main traditions: Hindustani classical music 
+                            in North India and Carnatic classical music in South India. These classical music traditions have been passed down through generations and 
+                            are characterized by intricate melodies, rhythmic patterns, and improvisation. <br>
+                            
+                            <b> 3.) Devotional Music:</b> Bhajan and Kirtan are forms of devotional music that are deeply ingrained in Indian culture. These genres involve 
+                            singing praises to gods and goddesses and are often performed during religious ceremonies, festivals, and spiritual gatherings. <br>
+                            
+                            <b> 4.) Folk Music:</b> India is also home to a rich tradition of folk music, which varies from region to region. Folk songs are often passed 
+                            down orally from generation to generation and reflect the cultural heritage and lifestyle of different communities across the country. <br>
+                            
+                            <b> 5.) Film Music:</b> The Indian film industry, particularly Bollywood, has played a significant role in popularizing music in India. Film 
+                            music, also known as "filmi music," is characterized by its fusion of traditional Indian melodies with Western musical elements. Bollywood 
+                            songs are often accompanied by elaborate dance sequences and have a wide appeal across India and the world.  <br>
+                            
+                            <b> 6.) Modern Music Scene:</b> In addition to classical, devotional, folk, and film music, India also has a thriving modern music scene that 
+                            encompasses various genres such as pop, rock, hip-hop, electronic, and fusion. Indian musicians and bands are gaining recognition both 
+                            nationally and internationally, contributing to the diversity and vibrancy of the country's music landscape. <br>
+
+                            <b> 7.) Ghazals: </b>Originating from Persian poetry, Ghazals are poetic verses set to music. They typically express themes of love, longing, and mysticism and are performed with classical instruments like the tabla, harmonium, and sarangi. Ghazals have a refined and emotive style, often associated with late-night gatherings called "mehfils." <br>
+
+                            <b> 8.) Bollywood Music:</b> Bollywood film music, also known as "filmi music," is immensely popular both in India and around the world. It encompasses a wide range of musical styles, including classical, folk, pop, and electronic music. Bollywood songs often feature catchy melodies, vibrant orchestrations, and elaborate dance sequences in movies. <br>
+
+                            <b> 9.) Indie and Fusion Music: </b> In recent years, Indian musicians have been experimenting with fusion genres, blending traditional Indian music with Western, jazz, rock, electronic, and other influences. This has led to the emergence of a vibrant indie music scene in India, characterized by innovative collaborations and boundary-pushing compositions.
+                            These are just a few examples of the diverse genres of Indian music, each contributing to the rich cultural tapestry of the Indian subcontinent.
+        </div>
+      </div><br><br><br>
+      <hr>
+
+      <!-- Instruments -->
+                                        <!-- Artists -->
+     <br><br><br><br><br><br>
+                                         
+                <div class="container" id="artist">
+                    <center><h1 id="genres" class="bg-success"><u><strong>Famous Artists of Indian Music</strong></u></h1></center>
+                                <div class="row">
+                                <div class="col-sm-3"></div>
+                                <div class="col-sm-6"></div>
+                                <div class="col-sm-3 border text-center"> <b><p>Famous plays</p></b></div>
+                                </div>
+                </div>                                
+        <div class="container">
+            <div class="row border text-center">
+                <div class="col-sm-3">
+                    <img src="./images/Ravi Shankar.jpeg" alt="Ravi Shankar" height="150px" width="130px">
+                    <div><figcaption><a href="https://en.wikipedia.org/wiki/Ravi_Shankar">Ravi Shankar</a></figcaption></div>
+                </div>
+                <div class="col-sm-6 justify-content-center border">
+                    <p>A sitar virtuoso and composer, Ravi Shankar is credited with popularizing Indian classical music in the West. He collaborated with Western musicians like George Harrison of The Beatles and became a global ambassador for Indian music.</p>
+                </div>
+                <div class="col-sm-3 text-center">   <br><br>
+                    <a href="https://youtu.be/aNKTWhcw5nI?si=agntkM_wLNXiM5fc" style="text-align: center;">Raga Jog</a><br>
+                    <a href="https://youtu.be/V_nrMxx5pBQ?si=n-o9h3MufgYWipts">Sitar Concerto No. 1</a>
+                </div>
+            </div>
+            <div class="row border text-center">
+                <div class="col-sm-3">
+                    <img src="./images/Lata Mangeshkar.jpeg" alt="Lata Mangeshkar" height="150px" width="130px">
+                    <div><figcaption><a href="https://en.wikipedia.org/wiki/Lata_Mangeshkar">Lata Mangeshkar </a></figcaption></div>
+                </div>
+                <div class="col-sm-6 justify-content-center border">
+                    <p>Known as the "Nightingale of India," Lata Mangeshkar is one of the most celebrated playback singers in Bollywood history. With a career spanning over seven decades, she has recorded thousands of songs in various Indian languages.</p>
+                </div>
+                <div class="col-sm-3 text-center"> <br><br>
+                    <a href="https://youtu.be/Wvr8sX5-T_8?si=Nts-zPgj6Hw5r-1f">Ae Mere Watan Ke Logo</a> <br>
+                    <a href="https://youtu.be/TFr6G5zveS8?si=wxQV79CzQ44Ipgsj">Lag Ja Gale</a>
+                </div>
+            </div>
+            <div class="row border text-center">
+                <div class="col-sm-3">
+                    <img src="./images/A.R. Rahman.jpeg" alt="A.R. Rahman" height="150px" width="130px">
+                    <div><figcaption><a href="https://en.wikipedia.org/wiki/A._R._Rahman">A.R. Rahman</a></figcaption></div>
+                </div>
+                <div class="col-sm-6 justify-content-center border">
+                    <p>A.R. Rahman, also known as the "Mozart of Madras," is a prolific composer and musician who has revolutionized Indian film music. He has won numerous awards, including Oscars, for his work in films like "Slumdog Millionaire" and "Jai Ho."</p>
+                </div>
+                <div class="col-sm-3 text-center"> <br><br>
+                    <a href="https://youtu.be/uinBpHT-AxM?si=riVb-f-I1e1WwuFP">Jai Ho</a> <br>
+                    <a href="https://youtu.be/jDn2bn7_YSM?si=FAUlSmBi0ug2726R">Vande Mataram</a>
+                </div>
+            </div>
+            <div class="row border text-center">
+                <div class="col-sm-3">
+                    <img src="./images/zakir hussain.jpeg" alt="zakir hussain" height="150px" width="130px">
+                    <div><figcaption><a href="https://en.wikipedia.org/wiki/Zakir_Hussain_(musician)">Zakir Hussain</a></figcaption></div>
+                </div>
+                <div class="col-sm-6 justify-content-center border">
+                    <p>A master tabla player, Zakir Hussain is renowned for his virtuosity and innovation in Indian classical music. He has collaborated with a wide range of artists from around the world and has been instrumental in popularizing the tabla globally.</p>
+                </div>
+                <div class="col-sm-3 text-center"> <br><br>
+                    <a href="https://youtu.be/mmiThgzYX5E?si=50YtJCtQhZF5Qf12">Tabla Duet</a> <br>
+                    <a href="https://youtu.be/TxF8qAFUrTQ?si=XWvO8-pU4OIDw9Kh">Raga Lalit</a>
+                </div>
+            </div>
+            <div class="row border text-center">
+                <div class="col-sm-3">
+                    <img src="./images/MS Subbulakshmi.jpeg" alt="MS Subbulakshmi" height="150px" width="130px">
+                    <div><figcaption><a href="https://en.wikipedia.org/wiki/M._S._Subbulakshmi">MS Subbulakshmi</a></figcaption></div>
+                </div>
+                <div class="col-sm-6 justify-content-center border">
+                    <p>MS Subbulakshmi was a legendary Carnatic vocalist known for her mesmerizing voice and impeccable renditions of classical compositions. She was the first musician to be awarded the Bharat Ratna, India's highest civilian award.</p>
+                </div>
+                <div class="col-sm-3 text-center"> <br><br>
+                    <a href="https://youtu.be/Go-mAJpH6_w?si=NSpMUyy7v-mrbWD7">Bhaja Govindam</a> <br>
+                    <a href="https://youtu.be/ATflA6WOy0I?si=Pkjm4ZJbvk1LLCCp">Vishnu Sahasranamam</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!--                                                  Instruments                           -->
+
+        
+ <br><br><br><br><br>
+
+          <!--                 TO display prices   -->
+           <div class="container" id="music">
+            <center><i><h1>Awards by Indian Musicains</h1></i></center>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="..." height="500" width="450">
+                            <div class="carousel-caption d-none d-md-block">
+                                <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2024-02/05/full/1707109883-6469.png?im=FeatureCrop,size=(826,465)" class="d-block w-100" alt="...Grammy Awards 2024: India Shines at Award night" >
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Grammy Awards 2024: India Shines at Award night</h5>
+                                  <p class="text-bg-dark p-3">Indian musician Shankar Mahadevan and Zakir Hussain's fusion band 'Shakti' bagged the ‘Best Global Music Album’ award at the Grammy Awards</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/Pandit Ravi Shankar.jpeg" class="d-block w-100" alt="...Pandit Ravi Shankar.jpeg" height="600" width="450">
+                            <div class="carousel-caption d-none d-md-block">
+                              <!-- <h5>Second slide label</h5> -->
+                              <p class="text-bg-success p-3">Pandit Ravi Shankar, the legendary Sitarist and composer, is known for his collaborations with The Beatles. He received 4 Grammy Awards during his illustrious career. His influence on Hindustani music, both in India and abroad, cannot be overstated. Ravi Shankar was nominated 10 times for Grammy Awards and won 4, including Album of the Year for "The Concert for Bangladesh" in 1973.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...Pandit Ravi Shankar.jpeg" height="600" width="450">
+                            <div class="carousel-caption d-none d-md-block">
+                              <!-- <h5>Second slide label</h5> -->
+                              <p class="text-bg-success p-3">Thetakudi Harihara Vinayakram, fondly known as Vikku, is known for his mastery of the ghatam. He became the first Carnatic musician to win a Grammy with his performance in "Planet Drum" in 1991. Vinayakram's international debut and collaboration with artists like Zakir Hussain have solidified his place among unforgettable Grammy winners from India.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/GettyImages-1246140709-e1673406099447.webp" class="d-block w-100" alt="...RRR" height="700" width="450">
+                            <div class="carousel-caption d-none d-md-block">
+                              <!-- <h5>Second slide label</h5> -->
+                              <p class="text-bg-success p-3">The Indian hit turned global phenomenon “RRR” went one for two at the Golden Globes Tuesday night, missing out on best non-English-language picture to “Argentina, 1985” but triumphing for best original song with the viral sensation “Naatu Naatu.”</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://en-media.thebetterindia.com/uploads/2015/02/vishwa_mohan_bhat.png" class="d-block w-100" alt="...RRR" height="700" width="450">
+                            <div class="carousel-caption d-none d-md-block">
+                              <!-- <h5>Second slide label</h5> -->
+                              <p class="text-bg-success p-3">He is a Hindustani classical music instrumentalist who plays the Mohan Veena (slide guitar). He won the award in 1993 for Best World Music Album – A Meeting by the River</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      
+                </div>
+                </div>
+            </div>
+           
+
+        <!--                         -->
+        
+        <br><br><br><br><br>
+          <div class="container" id="instrument">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+                        <a class="navbar-brand" href="#"> Music 
+                            <div class="spinner-grow text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-secondary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-success" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-danger" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-warning" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-info" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-light" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-dark" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                        </a>
+                        <ul class="nav nav-pills">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#string">String Instruments</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading2">Wind Instruments</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#scrollspyHeading3">Percussion Instruments</a></li>
+                              <li><a class="dropdown-item" href="#scrollspyHeading4">Keyboard Instruments</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#scrollspyHeading5">Brass Instruments</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </nav>
+                      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                        <h4 id="string">String Instruments</h4>
+                        <pre>These instruments produce sound by vibrating strings. Examples include:
+                            Guitar,Violin,Cello,Sitar,Harp</pre>
+                        <h4 id="scrollspyHeading2">Wind Instruments</h4>
+                        <pre>Sound is produced by vibrating air within the instrument. Types of wind instruments include:
+                            Flute, Clarinet, Saxophone, Trumpet, Trombone</pre>
+                        <h4 id="scrollspyHeading3">Percussion Instruments</h4>
+                        <pre>These instruments produce sound by being struck, shaken, or scraped. Percussion instruments include:
+                            Drums, Tambourine, Xylophone, Maracas, Triangle</pre>
+                        <h4 id="scrollspyHeading4">Keyboard Instruments</h4>
+                        <pre>These instruments produce sound by pressing keys that trigger mechanisms to create sound vibrations. Examples include:
+                            Piano, Organ, Synthesizer, Electric keyboard</pre>
+                        <h4 id="scrollspyHeading5">Brass Instruments</h4>
+                        <pre>These instruments produce sound through the vibration of the player's lips against a metal mouthpiece. Examples include:
+                            Trumpet, Trombone, French horn, Tuba</pre>
+                      </div>
+                </div>
+            </div>
+          </div>
+          <div class="container"> <h1 class="bg-warning text-center">Musical Instruments</h1> <br><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body text-center">
+                            <img src="./images/Guitar.jpeg" class="card-img-top" alt="c:\Users\lenovo\Downloads\Guitar.jpeg" height="140px" width="50px">
+                            <a href="https://en.wikipedia.org/wiki/Guitar" class="btn btn-primary" target="_blank">Guitar</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body text-center">
+                            <img src="./images/Drums.jpeg" class="card-img-top" alt="Drums" height="140px" width="50px">
+                            <a href="https://en.wikipedia.org/wiki/Drum" class="btn btn-primary" target="_blank">Drums</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body text-center">
+                            <img src="./images/Sitar.jpeg" class="card-img-top" alt="Sitar" height="140px" width="50px">
+                            <a href="https://en.wikipedia.org/wiki/Sitar" class="btn btn-primary" target="_blank">Sitar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body text-center">
+                            <img src="./images/Boehm & Mendler, German _ Alto Flute _ German _ The Metropolitan Museum of Art.jpeg" class="card-img-top" alt="Flute" height="140px" width="50px">
+                            <a href="https://en.wikipedia.org/wiki/Flute#:~:text=Like%20all%20woodwinds%2C%20flutes%20are,flutes%20are%20edge%2Dblown%20aerophones." class="btn btn-primary" target="_blank">Flute</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="./images/Trumpet.jpeg" class="card-img-top" alt="Trumpet" height="140px" width="50px">
+                    <a href="https://en.wikipedia.org/wiki/Trumpet" class="btn btn-primary" target="_blank">Trumpet</a>
+                </div>
+              </div>     
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body text-center">
+                    <img src="./images/Synthesizer.jpeg" class="card-img-top" alt="Synthesizer" height="140px" width="50px">
+                    <a href="https://en.wikipedia.org/wiki/Synthesizer" class="btn btn-primary" target="_blank">Synthesizer</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body text-center">
+                    <img src="./images/French horn.jpeg" class="card-img-top" alt="French horn" height="140px" width="50px">
+                    <a href="https://en.wikipedia.org/wiki/French_horn" class="btn btn-primary" target="_blank">French horn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <br>
+<div class="container border">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card-body text-center">
+                <img src="./images/Electric keyboard.jpeg" class="card-img-top" alt="Electric keyboard" height="240px" width="80px">
+                <a href="https://en.wikipedia.org/wiki/Electronic_keyboardr" class="btn btn-primary" target="_blank">Electric keyboard</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card-body text-center">
+                <img src="./images/Piano.jpeg" class="card-img-top" alt="Piano" height="240px" width="80px">
+                <a href="https://en.wikipedia.org/wiki/Piano" class="btn btn-primary" target="_blank">Piano</a>
+            </div>
+        </div>
+    </div>
+</div>
+      <br>
+    <div class="container">
+        <div class="row">
+            <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/e9J8B3EQqBE?autoplay=1" title="YouTube video" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!--                                                    Contact Us                           -->
+    <div class="container border  border-dotted border-dark" id="regrister">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="registration-form">
+
+                    <fieldset>
+                    <legend> <h2>Create Your Account</h2> 
+                   
+                    <form action="/register" method="post">
+                      <div class="form-group">
+                        <label for="username">Username :</label>
+                        <input type="text" id="username" name="username" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="password">Password :</label>
+                        <input type="password" id="password" name="password" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="confirm-password">Confirm Password :</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Sign Up</button>
+
+                    </form>
+                    <p>Already have an account? <a href="/login">Log in here</a>.</p></legend> </fieldset>
+                  </div>
+                  
+            </div>
+            <div class="col-md-6 float-end">
+                <img src="./images/regrister.jpeg" alt="">
+            </div>
+        </div>
+      </div>
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
