@@ -24,11 +24,11 @@ This project is a web page dedicated to Indian music, showcasing various aspects
 # Musical Instruments
    This section provides an overview of traditional and contemporary musical instruments used in Indian music. It includes descriptions, images, and details about the significance and usage of each instrument.
 
+
 # Screenshots
-<video width="640" height="360" controls>
-  <source src="your-video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Download Video](https://github.com/manishjr26/indian-music-website/raw/main/Untitled%20video%20-%20Made%20with%20Clipchamp.mp4)
+
+
 
 
 
